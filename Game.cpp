@@ -5,7 +5,6 @@
 Game::Game() : fruit(10, 10), w(size * N), h(size * (M + 2)),
                dir(1), window(sf::VideoMode(w, h), "Snake!"), scoreMain(), scoreSecond(), shape(sf::Vector2f(N * size, M * 3))
 {
-    // set the shape color to green
 
     font.loadFromFile("../arial.ttf");
     playboard.loadFromFile("../images/playboard.png");
